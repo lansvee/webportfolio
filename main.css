@@ -1,0 +1,704 @@
+
+/* Line Divider Styling */
+.section-divider {
+    border: none;
+    border-top: 1px solid #9e9b9b;
+    margin: 1.5rem 0;
+}
+
+/*NavBar Font Styling*/
+.navbar-brand {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--Black, #000);
+}
+
+.navbar-nav .nav-link {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--Black, #000);
+    line-height: 120%;
+}
+
+/*Landing Section*/
+/* Button Styling */
+/* Updated button styling */
+/* Landing Section */
+#landing .main-header {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#landing .main-header:hover {
+    color: #1e90ff; /* Change color on hover */
+}
+
+/* Optional: Blinking cursor */
+#typing::after {
+    content: "|";
+    animation: blink 0.7s step-end infinite;
+    margin-left: 5px;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+#landing .btn-primary {
+    background-color: #ff7a59; /* Orange background color */
+    color: white; /* White text color */
+    border: none;
+    padding: 0.8rem 2rem; /* Larger padding for more size */
+    border-radius: 30px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform effect on hover */
+    font-size: 16px; /* Adjust font size */
+    margin-top: 20px; /* Space between text and button */
+}
+
+#landing .btn-primary:hover {
+    background-color: #ff5722; /* Darker orange on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Landing Section Image Styling */
+#landing img {
+    width: 100%;
+    border-radius: 8px; /* Rounded corners */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and shadow */
+}
+
+#landing img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow to create depth */
+}
+
+
+/* About Me Section */
+
+#about .text-start {
+    font-size: 48px; /* Set font size to 48px on desktop */
+    text-align: left;
+}
+
+#about .text-start:hover {
+    color: #1e90ff; /* Change color on hover */
+}
+.about-section h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+/* Profile Image Styling */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ff7a59; /* Add thin orange border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease; /* Add border transition */
+}
+
+/* Profile Image Hover Effect */
+.profile-img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border-color: #ff5722; /* Change border color to a darker orange on hover */
+}
+
+
+
+/* Name Styling (Lanie V.) */
+.name-title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--Black, #000);
+}
+
+/* Position Styling (Full Stack Engineering Wizard & Designer) */
+.position {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+/* "I’m Lanie Verzosa..." Text Styling */
+.intro-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--Black, #000);
+    margin-top: 6rem; /* Increased margin above the intro text */
+}
+
+/* Hover Effect for Orange Text */
+.hover-orange {
+    transition: color 0.3s ease;
+}
+
+.hover-orange:hover {
+    color: #ff7a59; /* Orange color */
+}
+
+/* Hover Effect for Blue Text */
+.hover-blue {
+    transition: color 0.3s ease;
+}
+
+.hover-blue:hover {
+    color: #1e90ff; /* Blue color */
+}
+
+
+/* Projects (Featured Work) Section */
+/* Projects Section Heading */
+#projects h2 {
+    color: var(--Black, #000); /* Black color for the text */
+    font-family: "DM Sans", sans-serif; /* Font family */
+    font-size: 48px; /* Font size */
+    font-style: normal; /* Normal font style */
+    font-weight: 400; /* Font weight */
+    line-height: 120%; /* Line height for spacing */
+    margin-bottom: 1.5rem; 
+    transition: color 0.3s ease;
+}
+
+/* Project Description Styling for subtext specifically in the Projects section */
+#projects .subtext {
+    color: var(--Black, #595555); /* Set text color to black */
+    font-family: "DM Sans", sans-serif; /* Set font family */
+    font-size: 14px; /* Set font size */
+    font-style: normal; /* Ensure normal font style */
+    font-weight: 400; /* Set font weight */
+    line-height: 120%; /* Set line height for better spacing */
+    text-align: left; /* Align text to the left */
+}
+
+#projects .text-start:hover {
+    color: #1e90ff; /* Change color on hover */
+}
+
+/* Projects (Featured Work) Section */
+.featured-work {
+    margin-top: 4rem;
+}
+
+.featured-work h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Project Image Styling */
+.project-img {
+    height: 400px; /* Adjust height to fit the design */
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: block;
+    margin: 0 auto 24px auto; 
+}
+
+.project-img:hover {
+    transform: scale(1.05);
+}
+
+/* Project Title Styling */
+.featured-work p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Project Description Styling */
+.subtext {
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #666;
+    text-align: center;
+    margin-top: -0.2rem;
+}
+
+/* Add styling to paragraphs */
+.text-start.mt-2 {
+    color: var(--Black, #000); /* Black text color */
+    font-family: "DM Sans", sans-serif; /* Font family */
+    font-size: 24px; /* Font size */
+    font-style: normal; /* Normal font style */
+    font-weight: 400; /* Font weight */
+    line-height: 120%; /* Line height for proper spacing */
+    text-align: left; /* Align the text to the left */
+    transition: color 0.3s ease;
+}
+
+/* Tools Section */
+#tools h2 {
+    color: var(--Black, #000); /* Black color for the text */
+    font-family: "DM Sans", sans-serif; /* Font family */
+    font-size: 48px; /* Font size */
+    font-style: normal; /* Normal font style */
+    font-weight: 400; /* Font weight */
+    line-height: 120%; /* Line height for spacing */
+    margin-bottom: 1.5rem; 
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Blue Hover Effect */
+#tools h2:hover {
+    color: #1e90ff; /* Blue color on hover */
+}
+
+/* Tools Section */
+
+/* Equal height for tool-card boxes */
+.equal-height-card {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* Tool Icon Styling */
+.tool-icon {
+    width: 100%; /* Ensure icon fits within its container */
+    height: auto;
+    max-width: 150px; /* Set a maximum width for control */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools-section {
+    padding: 3rem 0;
+}
+
+.tools-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.tool-card {
+    padding: 2rem;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    height: 100%; /* Ensure each card maintains full height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 300px; /* Set a consistent minimum height for all cards */
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Tool Icon Styling */
+
+/* Basic styling for images */
+
+
+.tool-icon {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+
+.tool-icon .icon-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5%; /* Optional styling */
+    transition: filter 0.3s ease;
+}
+
+/* Tool Title Styling */
+.tools-section h4 {
+    color: var(--Black, #000);
+    font-family: "DM Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 51.2px */
+    transition: color 0.3s ease;
+}
+
+/* Blue Hover Effect */
+#tools h4:hover {
+    color: #1e90ff; /* Blue color on hover */
+}
+
+
+
+/* Tool Description Styling */
+.tool-card p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+
+/* Contact Section */
+.contact-section {
+    padding: 3rem 0;
+}
+
+.contact-section h3 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+
+/*Contact Social Icons */
+/* Styling for Contact Section Heading */
+#contact .main-header {
+    color: var(--Black, #000); /* Black text color */
+    font-family: "DM Sans", sans-serif; /* Set font */
+    font-size: 56px; /* Large font size */
+    font-style: normal;
+    font-weight: 400; /* Normal weight */
+    line-height: 120%; /* Line height for spacing */
+    margin-top: 1.5rem;
+}
+
+/* Blue Hover Effect */
+#contact h3:hover {
+    color: #1e90ff; /* Blue color on hover */
+}
+
+#contact .typing-container {
+    text-align: left; /* Left align on larger screens */
+}
+
+
+/* Social Icon Container */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    justify-content: flex-start; /* Align icons to the left in larger screens */
+    margin-top: 1rem; /* Space between the icons and text */
+}
+
+.social-icon {
+    width: 30px; /* Set the size of the icons */
+    height: 30px;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon */
+    filter: brightness(1.2); /* Brighten the icon */
+}
+
+
+/* Optional: Active states for the icons */
+.social-icon:focus, .social-icon:hover {
+    outline: none; /* Remove outline on hover/focus */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle glow effect */
+}
+
+/*Contact Form Styling */
+.contact-section .form-label {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-section input,
+.contact-section textarea {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+    border-color: #ff7a59;
+    outline: none;
+}
+
+/* Contact Section Button Styling */
+#contact .btn-primary {
+    background-color: #ff7a59; /* Orange background color */
+    color: white; /* White text color */
+    border: none;
+    padding: 0.8rem 2rem; /* Larger padding for more size */
+    border-radius: 30px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transform effect on hover */
+    font-size: 16px; /* Adjust font size */
+    margin-top: 20px; /* Space between text and button */
+}
+
+#contact .btn-primary:hover {
+    background-color: #ff5722; /* Darker orange on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+#typing-contact::after {
+    content: "|";
+    animation: blink 0.7s step-end infinite;
+    margin-left: 5px;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    margin-top: 4rem;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    color: #999;
+    background-color: #ffffff;
+    border-top: 1px solid #eaeaea;
+    position: relative; /* Ensures it stays at the bottom */
+    left: 0; /* Ensure full width */
+    right: 0; /* Ensure full width */
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ensure the content stretches fully within the footer */
+    max-width: 1200px; /* Optional: Add a max-width to prevent stretching on very large screens */
+    margin: 0 auto; /* Centers the container */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    padding: 0 15px; /* Increased padding for better spacing */
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ff7a59; /* Hover effect color */
+}
+
+/* Optional: Add hover effect on the container links */
+footer a:not(:last-child) {
+    margin-right: 10px; /* Adds space between links */
+}
+
+/* Optional: Center footer content if it has small screen size */
+@media (max-width: 768px) {
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .container div {
+        margin-top: 1rem;
+    }
+
+    footer a {
+        margin: 0 5px;
+    }
+}
+
+/* Navbar Styling */
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.navbar-brand {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #333;
+    margin: 0 8px;
+}
+.navbar-nav .nav-link:hover {
+    color: #ff7a59;
+}
+
+/* Mobile and Tablet Adjustments */
+
+@media (max-width: 768px) {
+    /* Center text and adjust font sizes */
+    #landing .main-header {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .intro-text {
+        font-size: 20px;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    /* Reduce spacing and button padding */
+    .btn-primary {
+        padding: 0.6rem 1.5rem;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    /* Profile image in the About section */
+    .profile-img {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 1rem; /* Center image */
+        display: block;
+    }
+
+    /* About Section Text */
+    .about-section h2 {
+    font-size: 24px; /* Updated font size for better readability */
+    text-align: center;
+    }
+
+    #about .text-start {
+        font-size: 32px; /* Smaller font size for mobile */
+        text-align: center; /* Center align on mobile */
+    }
+
+.name-title {
+    font-size: 16px; /* Updated to match a consistent size */
+    text-align: center;
+    }
+
+.position {
+    font-size: 14px; /* Updated to be slightly smaller than name-title */
+    text-align: center;
+    }
+
+    /*text I;m Lanie About Me */
+
+    .about-section p.intro-text {
+    font-size: 16px; /* Updated font size for mobile */
+    line-height: 1.6; /* Improved line spacing */
+    text-align: justify;
+    word-break: break-word; /* Prevents awkward gaps for long words */
+    font-weight: 400; /* Regular weight for readability */
+    }
+
+    /* Projects Section */
+    #projects h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .project-img {
+        height: auto; /* Adjust to image's aspect ratio */
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .text-start.mt-2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* Tools Section Adjustments */
+    .tool-icon {
+        max-width: 200px; /* Increase size on mobile view */
+        height: auto;
+    }
+    .tool-card {
+        padding: 1rem;
+        text-align: center;
+    }
+    #tools h2 {
+        font-size: 32px;
+        text-align: left;
+    }
+
+    #tools h4 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* Contact Section */
+    .contact-section h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+    .contact-section .form-label {
+        font-size: 0.9rem;
+        text-align: left;
+    }
+    .contact-section input,
+    .contact-section textarea {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    .contact-section form {
+        text-align: left; /* Centers all form elements */
+    }
+
+    .contact-section .btn-primary {
+        display: block;
+        margin: 0 auto;
+    }
+    #contact .typing-container {
+        text-align: center; /* Center align on mobile screens */
+    }
+
+    #typing-contact {
+        font-size: 36px; /* Smaller font size for mobile */
+        text-align: center;
+        line-height: 60%; /* Reduce line height to bring sentences closer */
+    }
+
+
+    /* Footer */
+    footer .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    footer p, footer a {
+        font-size: 0.8rem;
+        margin: 0.5rem 0;
+    }
+}
